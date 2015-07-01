@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function(e) {	
-//document.addEventListener("deviceready",function(){
+document.addEventListener("deviceready",function(){
 var puntosb=0;
 var puntosm=0;
 var puntostot=0;
@@ -1177,5 +1177,5 @@ function imageninicio()
 	
 }
 
-//}); 
+}); 
 });
