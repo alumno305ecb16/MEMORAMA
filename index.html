@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+        <title>Mi aplicacion</title>
+
+        <!--grupo CSS-->
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+        <!--grupo JavaScript-->
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/acciones.js" type="text/javascript"></script>
+        
+        <script src="phonegap.js" type="text/javascript"></script>
+ </head>
+
+ <body>
+<!-- Principal -->
+
+
+ <div data-role="page" id="principal" >   
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">     
+         <h1>MEMORAMA</h1>
+        </div>
+
+     
+         
+        	<div data-role="main" class="ui-content">
+         		
+     		</div>
+        
+        
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+         <div data-role="navbar">
+       	 		<ul>
+        	 <li><a href="#partida" data-icon="star" id="btnjuego">INICIAR JUEGO</a></li>
+        		</ul>
+       	</div>
+       
+        </div>        
+        
+     </div>
+
+
+
+
+
+
+
+     <div data-role="page" id="partida" >   
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">  
+         <div id="contador" style="width:50%; float:left">TIEMPO:</div>   
+         <div style="width:25%; float:left" id="nivel">NIVEL 1</div>
+         <div style="width:10%; float:right"><a href="#principal" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-right ui-btn-corner-all ui-btn-icon-notext"></a></div>
+        </div>
+
+     
+         
+         <div data-role="main" class="ui-content">
+       		<div align="center">
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii1"><img id="i1"  src="images/img/principal.jpg" alt="imagen1" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii2"><img id="i2" src="images/img/principal.jpg" alt="imagen2" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii3"><img id="i3" src="images/img/principal.jpg" alt="imagen3" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii4"><img id="i4" src="images/img/principal.jpg" alt="imagen4" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii5"><img id="i5" src="images/img/principal.jpg" alt="imagen5" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii6"><img id="i6" src="images/img/principal.jpg" alt="imagen6" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii7"><img id="i7" src="images/img/principal.jpg" alt="imagen7" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii8"><img id="i8" src="images/img/principal.jpg" alt="imagen8" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii9"><img id="i9" src="images/img/principal.jpg" alt="imagen9" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii10"><img id="i10" src="images/img/principal.jpg" alt="imagen10" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii11"><img id="i11" src="images/img/principal.jpg" alt="imagen11" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii12"><img id="i12" src="images/img/principal.jpg" alt="imagen12" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii13"><img id="i13" src="images/img/principal.jpg" alt="imagen13" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii14"><img id="i14" src="images/img/principal.jpg" alt="imagen14" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii15"><img id="i15" src="images/img/principal.jpg" alt="imagen15" style="width:20%"></a>
+       
+       <a href="#" data-rel="popup" data-position-to="window" data-transition="fade" class="imge" id="ii16"><img id="i16" src="images/img/principal.jpg" alt="imagen16" style="width:20%"></a>
+       
+       </div>
+        </div>
+        
+        
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+         
+        </div>        
+        
+     </div>
+  
+<!-- Principal -->
+
+
+
+<div data-role="page" id="resultados" >   
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">     
+         <h1>RESULTADOS</h1>
+        </div>
+
+     
+         
+        	<div data-role="main" class="ui-content">
+         		
+     		</div>
+        
+        
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+         <div data-role="navbar">
+       	 		<ul>
+        	 <li><a href="#partida" data-icon="star" id="btnintentar">INTENTAR DE NUEVO</a></li>
+             <li><a href="#principal" data-icon="home">INICIO</a></li>
+        		</ul>
+       	</div>
+       
+        </div>        
+        
+     </div>
+
+
+ </body>
+</html> 
